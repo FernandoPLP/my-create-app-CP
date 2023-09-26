@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 ## Instalando a dependência no projeto
 - npm install react-router-dom;
 ## Criar a pasta routes
-- Criar a pasta routes;
+- Criar a pasta routes.
 ## As rotas ou páginas
 - Criando as rotas/páginas [Home, EditarProdutos, Produtos e Erro404].
 ## Importar os objetos das rotas no main.jsx e dos componentes de rotas.
