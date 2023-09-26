@@ -17,7 +17,7 @@ Currently, two official plugins are available:
 - Criando as rotas/páginas [Home, EditarProdutos, Produtos e Erro404].
 ## Importar os objetos das rotas no main.jsx e dos componentes de rotas.
 - import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-- import Home..., import Produtos..., import EditarProdutos..., import Erro404...
+- import Home..., import Produtos..., import EditarProdutos..., import... Erro404....
 ## Criando o objeto de rotas com o createBrowserRouter.
 - const router = createBrowserRouter([ ... ]);
 ## Trocar o componente <App/> pelo componente <RouterProvider/> no ReactDOM.render.
