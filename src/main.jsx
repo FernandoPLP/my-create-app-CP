@@ -9,6 +9,7 @@ import EditarProdutos from './routes/editarProdutos.jsx';
 import Home from './routes/home.jsx';
 import Error404 from './routes/error404.jsx';
 import Produtos from './routes/produtos.jsx';
+import RemoverProduto from './routes/RemoverProduto.jsx';
 
 const router = createBrowserRouter([
   {path: "/", element: <App/> , errorElement: <Error404/>,
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
       {path: "/", element:<Home/>},
       {path: "/produtos", element:<Produtos/>},
       {path: "/editar/produtos/:id", element:<EditarProdutos/>},
-      
+      {path: "/remover", element:<RemoverProduto/>}
     ]
   }
  ]);

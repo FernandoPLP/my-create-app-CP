@@ -45,8 +45,8 @@ export default function Produtos() {
                             <td>{item.nome}</td>
                             <td>{item.desc}</td>
                             <td>{item.preco}</td>
-                            <td><Link to={`/editar/produtos/${item.id}`}>Editar</Link>  |  </td>
-                            
+                            <td><Link to={`/editar/produtos/${item.id}`}>Editar</Link></td>
+                            <td><button onClick={() => removerItem(item.id)}>Remover</button></td>
                         </tr>
                     ))
                    }
