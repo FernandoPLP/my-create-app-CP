@@ -42,4 +42,3 @@ Currently, two official plugins are available:
     return (<>)
     # Rotas dinâmicas
     
-olá
